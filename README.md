@@ -102,23 +102,58 @@ Q(t+1)=T′Q(t)+TQ(t)′
 ⇒Q(t+1)=T⊕Q(t)
 
 ### Procedure
-/* write all the steps invloved */
+1.Create a project with required entities.
+
+2.Create a module along with respective file name.
+
+3.Run the respective programs for the given boolean equations.
+
+4.Run the module and get the respective RTL outputs.
+
+5.Create university program(VWF) for getting timing diagram.
+
+6.Give the respective inputs for timing diagram and obtain the results.
 
 
 
 ### PROGRAM 
-/*
+
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+Developed by:alagu nachiyar k 
+RegisterNumber:212222240006  
+```
+module flipflop(s,r,Q,Qbar,clk);
+input s,r,clk;
+output reg Q,Qbar;
+initial Q=0;
+initial Qbar=1;
+always @(posedge clk)
+begin
+Q=s|(Q&(~r));
+Qbar=r|(Qbar&(~s));
+end
+endmodule
+```
 
 
 
 
 
 
-### RTL LOGIC FOR FLIPFLOPS 
+### RTL LOGIC FOR FLIPFLOPS: 
+
+![image](https://github.com/Nachiyarr/Experiment--05-Implementation-of-flipflops-using-verilog/assets/113497340/b77555f2-5baa-4869-9c39-8ca1acc238f0)
+
+
+### TRUTH TABLE:
+![image](https://github.com/Nachiyarr/Experiment--05-Implementation-of-flipflops-using-verilog/assets/113497340/77dbd2c4-0174-4e8d-8478-c2fc009ccf83)
+
+
+
+
+
+### OUTPUT WAVEFORM:
+![image](https://github.com/Nachiyarr/Experiment--05-Implementation-of-flipflops-using-verilog/assets/113497340/41344e7b-c609-47a5-a0b9-35093b911124)
 
 
 
@@ -128,13 +163,5 @@ RegisterNumber:
 
 
 
-### TIMING DIGRAMS FOR FLIP FLOPS 
-
-
-
-
-
-
-
-
-### RESULTS 
+### RESULTS :
+Thus the flipflops circuits are designed and the truth tables is verified using quartus software.
