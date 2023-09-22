@@ -141,7 +141,7 @@ endmodule
 ## JK FLIPFLOPS CODE:
 ```
 
-module flipflops(J,K,clk,Q,Qbar);
+module JK(J,K,clk,Q,Qbar);
 input J,K,clk;
 output reg Q;
 output reg Qbar;
