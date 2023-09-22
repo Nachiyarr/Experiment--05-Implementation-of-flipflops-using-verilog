@@ -123,6 +123,7 @@ Program for flipflops  and verify its truth table in quartus using Verilog progr
 
 Developed by:alagu nachiyar k 
 RegisterNumber:212222240006  
+## SR FLIPFLOPS CODE:
 ```
 module flipflop(s,r,Q,Qbar,clk);
 input s,r,clk;
@@ -133,6 +134,23 @@ always @(posedge clk)
 begin
 Q=s|(Q&(~r));
 Qbar=r|(Qbar&(~s));
+end
+endmodule
+```
+
+## JK FLIPFLOPS CODE:
+```
+
+module flipflops(J,K,clk,Q,Qbar);
+input J,K,clk;
+output reg Q;
+output reg Qbar;
+initial Q=0;
+initial Qbar=1;
+always @(posedge clk)
+begin
+Q=(J&(~Q))|((~K)&Q);
+Qbar=((~J)&(Qbar))|K&(~Qbar);
 end
 endmodule
 ```
