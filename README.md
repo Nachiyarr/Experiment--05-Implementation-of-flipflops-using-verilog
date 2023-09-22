@@ -142,21 +142,26 @@ endmodule
 
 
 
-### RTL LOGIC FOR FLIPFLOPS: 
-
+###  RTL LOGIC FOR FLIPFLOPS: 
+## SR:
 ![image](https://github.com/Nachiyarr/Experiment--05-Implementation-of-flipflops-using-verilog/assets/113497340/b77555f2-5baa-4869-9c39-8ca1acc238f0)
+## JK:
+![image](https://github.com/Nachiyarr/Experiment--05-Implementation-of-flipflops-using-verilog/assets/113497340/ebde359c-a8d6-461f-82a0-fb077da65121)
 
 
 ### TRUTH TABLE:
+## SR
 ![image](https://github.com/Nachiyarr/Experiment--05-Implementation-of-flipflops-using-verilog/assets/113497340/77dbd2c4-0174-4e8d-8478-c2fc009ccf83)
 
 
 
 
 
-### OUTPUT WAVEFORM:
+### TIMING DIAGRAM FOR FLIP FLOPS:
+## SR:
 ![image](https://github.com/Nachiyarr/Experiment--05-Implementation-of-flipflops-using-verilog/assets/113497340/41344e7b-c609-47a5-a0b9-35093b911124)
-
+## JK:
+![image](https://github.com/Nachiyarr/Experiment--05-Implementation-of-flipflops-using-verilog/assets/113497340/d835fc5a-98fe-432a-bd25-adbbab38f334)
 
 
 
