@@ -102,17 +102,36 @@ Q(t+1)=T′Q(t)+TQ(t)′
 ⇒Q(t+1)=T⊕Q(t)
 
 ### Procedure
-1.Create a project with required entities.
+1.Create a New Project:
 
-2.Create a module along with respective file name.
+Open Quartus and create a new project by selecting "File" > "New Project Wizard."
+Follow the wizard's instructions to set up your project, including specifying the project name, location, and target device (FPGA).
 
-3.Run the respective programs for the given boolean equations.
+2.Create a New Design File:
 
-4.Run the module and get the respective RTL outputs.
+Once the project is created, right-click on the project name in the Project Navigator and select "Add New File."
+Choose "Verilog HDL File" or "VHDL File," depending on your chosen hardware description language.
 
-5.Create university program(VWF) for getting timing diagram.
+3.Write the Combinational Logic Code:
 
-6.Give the respective inputs for timing diagram and obtain the results.
+Open the newly created Verilog or VHDL file and write the code for your combinational logic.
+
+4.Compile the Project:
+
+To compile the project, click on "Processing" > "Start Compilation" in the menu.
+Quartus will analyze your code, synthesize it into a netlist, and perform optimizations based on your target FPGA device.
+
+5.Analyze and Fix Errors:*
+
+If there are any errors or warnings during the compilation process, Quartus will display them in the Messages window.
+Review and fix any issues in your code if necessary.
+View the RTL diagram.
+
+6.*Verification:
+
+Click on "File" > "New" > "Verification/Debugging Files" > "University Program VWF".
+Once Waveform is created Right Click on the Input/Output Panel > " Insert Node or Bus" > Click on Node Finder > Click On "List" > Select All.
+Give the Input Combinations according to the Truth Table amd then simulate the Output Waveform.
 
 
 
