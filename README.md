@@ -173,6 +173,36 @@ Qbar=((~J)&(Qbar))|K&(~Qbar);
 end
 endmodule
 ```
+## D FLIPFLOP CODE:
+``` 
+module flipflop(D,clk,Q,Qbar);
+input D,clk;
+output reg Q;
+output reg Qbar;
+initial Q=0;
+initial Qbar=1;
+always @(posedge clk)
+begin
+Q=D;
+Qbar=~D;
+end
+endmodule
+```
+## T FLIPFLOP CODE:
+```
+module flipflop(T,clk,Q,Qbar);
+input T,clk;
+output reg Q;
+output reg Qbar;
+initial Q=0;
+initial Qbar=1;
+always @(posedge clk)
+begin
+Q=(T&(~Q))|((~T)&Q);
+Qbar=((~T)&Qbar)|(T&(~Qbar));
+end
+endmodule
+```
 
 
 
@@ -197,6 +227,9 @@ endmodule
 ![image](https://github.com/Nachiyarr/Experiment--05-Implementation-of-flipflops-using-verilog/assets/113497340/41344e7b-c609-47a5-a0b9-35093b911124)
 ## JK:
 ![image](https://github.com/Nachiyarr/Experiment--05-Implementation-of-flipflops-using-verilog/assets/113497340/d835fc5a-98fe-432a-bd25-adbbab38f334)
+## D:
+
+## T:
 
 
 
