@@ -186,9 +186,7 @@ endmodule
 ![image](https://github.com/Nachiyarr/Experiment--05-Implementation-of-flipflops-using-verilog/assets/113497340/ebde359c-a8d6-461f-82a0-fb077da65121)
 
 
-### TRUTH TABLE:
-## SR
-![image](https://github.com/Nachiyarr/Experiment--05-Implementation-of-flipflops-using-verilog/assets/113497340/77dbd2c4-0174-4e8d-8478-c2fc009ccf83)
+
 
 
 
