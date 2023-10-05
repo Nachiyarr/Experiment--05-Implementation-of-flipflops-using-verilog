@@ -216,9 +216,9 @@ endmodule
 ![image](https://github.com/Nachiyarr/Experiment--05-Implementation-of-flipflops-using-verilog/assets/113497340/b77555f2-5baa-4869-9c39-8ca1acc238f0)
 ## JK:
 ![image](https://github.com/Nachiyarr/Experiment--05-Implementation-of-flipflops-using-verilog/assets/113497340/ebde359c-a8d6-461f-82a0-fb077da65121)
-## D:
+## D FLIPFLOP:
 ![image](https://github.com/Nachiyarr/Experiment--05-Implementation-of-flipflops-using-verilog/assets/113497340/e5a38d76-c298-467b-8d38-b9cf9176780c)
-## T:
+## T FLIPFLOP:
 ![image](https://github.com/Nachiyarr/Experiment--05-Implementation-of-flipflops-using-verilog/assets/113497340/90dd71f4-09f7-4607-87c8-56d452d88f2b)
 
 
@@ -232,10 +232,10 @@ endmodule
 ![image](https://github.com/Nachiyarr/Experiment--05-Implementation-of-flipflops-using-verilog/assets/113497340/41344e7b-c609-47a5-a0b9-35093b911124)
 ## JK:
 ![image](https://github.com/Nachiyarr/Experiment--05-Implementation-of-flipflops-using-verilog/assets/113497340/d835fc5a-98fe-432a-bd25-adbbab38f334)
-## D:
+## D FLIPFLOP:
 ![image](https://github.com/Nachiyarr/Experiment--05-Implementation-of-flipflops-using-verilog/assets/113497340/9befb2a7-fb4a-419e-abf3-aea3f65b6d02)
 
-## T:
+## T FLIPFLOP:
 ![image](https://github.com/Nachiyarr/Experiment--05-Implementation-of-flipflops-using-verilog/assets/113497340/c7a860e4-cafa-4003-ad87-6d78f9277ce6)
 
 
